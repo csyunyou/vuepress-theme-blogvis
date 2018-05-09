@@ -1,0 +1,20 @@
+{
+  "name": "testvuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev articles",
+    "docs:build": "vuepress build articles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "d3-cloud": "^1.2.5",
+    "moment": "^2.22.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  }
+}
